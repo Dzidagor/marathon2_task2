@@ -1,0 +1,122 @@
+.main {
+  background-color: #e8e8e8;
+}
+
+.main-block {
+  max-width: 1190px;
+  margin: 0 auto;
+  background: linear-gradient(rgba(232, 232, 232, 0.75), rgba(232, 232, 232, 0.75)), url(../img/main_bg.png) no-repeat;
+  padding-top: 62px;
+  padding-bottom: 140px;
+}
+.main-block__title {
+  text-align: center;
+  opacity: 0.6;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #273d46;
+}
+.main-block__subtitle {
+  margin-top: 30px;
+  font-family: "Times New Roman";
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 400;
+  color: #273d46;
+  text-align: center;
+}
+.main-block__img-block {
+  width: 841px;
+  height: 561px;
+  box-shadow: 0px 15px 65px 0px rgba(15, 16, 16, 0.15);
+  margin: 77px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-block__text-block {
+  margin: 100px auto 0;
+  max-width: 750px;
+}
+.main-block__text {
+  opacity: 0.8;
+  font-family: "Times New Roman";
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #273d46;
+}
+.main-block__list-block {
+  margin: 65px auto 0;
+  max-width: 750px;
+}
+.main-block__button {
+  margin-top: 60px;
+}
+
+.list__item {
+  padding-left: 20px;
+  position: relative;
+  font-size: 20px;
+  line-height: 36px;
+}
+.list__item:nth-of-type(1) .list__text {
+  font-family: Arial;
+  font-weight: 400;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  color: #273d46;
+}
+.list__item:nth-of-type(2) .list__text {
+  font-family: Arial;
+  font-weight: 400;
+  font-style: italic;
+  color: #80b7b3;
+}
+.list__item:nth-of-type(3) .list__text {
+  font-family: Arial;
+  font-weight: 700;
+  color: #273d46;
+}
+.list__item:nth-of-type(4) .list__text {
+  opacity: 0.3;
+  font-family: Arial;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: #273d46;
+}
+.list__item::before {
+  content: url(../img/check_icon.png);
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 3px;
+  left: -11px;
+}
+
+.button {
+  width: 200px;
+  height: 45px;
+  background-color: #80B7B3;
+  border-radius: 20px;
+  margin-left: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button__text {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  opacity: 1;
+  color: #fff;
+}
+.button__arrow-block {
+  margin-left: 10px;
+}/*# sourceMappingURL=style.css.map */
